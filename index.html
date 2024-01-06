@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicatessen</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand section-title" >Delicatessen</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-restaurante" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a delicatessen
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Serviços
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Restaurante
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+    <section id="sobre-o-restaurante">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="images/slides/imagem1.jpg" alt="Foto da delicatessen">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="images/slides/imagem2.jpg" alt="salaminho">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="images/slides/imagem3.jpeg" alt="diversos">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+        <div class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="restaurante.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno do restaurante">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title">Sobre <span class="text-colored">a delicatessen</span></h2>
+                        <p>
+                            Delicatessen presente em vários momentos do seu dia-a-dia, escolha o seu tempo para desfrutar de uma cozinha generosa ... muito atual. Nos primeiros raios de sol, você não trocará de lugar para se beneficiar de um maravilhoso café da manhã, por nossa e sua felicidade unimos os horários mais importantes do seu dia, com uma loja super aconchegante.
+                        </p>
+                        <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                        <p>
+                            Um ambiente calmo e ensolarado, próximo a uma avenida a beira mar. Sozinho, com família ou em grupo, não importa o que traga você a Delicatessen, o importante é a certeza de que nossa equipe atenciosa lhe dará as boas-vindas mais agradáveis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="eventos" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasiões</span></h2>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img src="images/eventos/pao-frances.jpeg" alt="" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="bi bi-basket-fill"></i>
+                        Padaria
+                    </h3>
+                    <p>
+                        Pão de Sal é um alimento natural, pois é preparado sem o uso de conservantes. É fonte de energia rápida para o corpo e combustível para o cérebro. Alimento do dia a dia da mesa dos brasileiros, é de sabor incomparável, saudável e de fácil digestão.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/eventos/doces.jpg" alt="" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="bi bi-box2-heart-fill"></i>
+                        Doceria
+                    </h3>
+                    <p>
+                        Assim como os pães, sempre ouvimos que o açúcar é um grande vilão. Porém, muitos nutricionistas já comprovaram que os doces também nos fazem bem. É como qualquer outro tipo de alimento, nada em excesso é bom. Além disso, os doces são uma enorme fonte de energia e muito conhecidos por ajudar a melhorar o humor.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/eventos/pizza.jpg" alt="" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="bi bi-balloon-heart-fill"></i>
+                        Pizzaria
+                    </h3>
+                    <p>
+                        A pizza portuguesa é uma homenagem à criatividade de imigrantes portugueses que chegaram ao Brasil e elaboraram uma pizza com ingredientes característicos de seu país, disponíveis nas padarias que trabalhavam. Deste então essa iguaria está enraizada e presente em nossa Delicatessen.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="cardapio" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center mb-5">Nosso <span class="text-colored">cardápio</span></h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column nav-cardapio">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#cafeDaManha" class="fw-bold text-start nav-link text-colored active">Café da manhã</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#almoco" class="fw-bold text-start nav-link text-colored">Almoço</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-start nav-link text-colored">Sobremesas</button>
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="cafeDaManha">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded mb-2" src="./images/cardapio/cafedamanha/mamao_resized.jpg" alt="mamão"/>
+                                    <h5 class="text-colored fw-bold mt-2">Mamão</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded mb-2" src="./images/cardapio/cafedamanha/melao_resized.jpg" alt="melão"/>
+                                    <h5 class="text-colored fw-bold mt-2">Melão</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded mb-2" src="./images/cardapio/cafedamanha/melacia_resized.jpg" alt="coca-cola"/>
+                                    <h5 class="text-colored fw-bold mt-2">Melancia</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded mb-2" src="./images/cardapio/cafedamanha/banana_resized.jpg" alt="coca-cola"/>
+                                    <h5 class="text-colored fw-bold mt-2">Banana</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded mb-2" src="./images/cardapio/cafedamanha/pao_resized.jpg" alt="paes"/>
+                                    <h5 class="text-colored fw-bold mt-2">Pães</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded mb-2" src="./images/cardapio/cafedamanha/tapioca_resized.jpg" alt="tapioca"/>
+                                    <h5 class="text-colored fw-bold mt-2">Tapioca</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded mb-2" src="./images/cardapio/cafedamanha/cuscuz_resized.jpg" alt="cuscuz"/>
+                                    <h5 class="text-colored fw-bold mt-2">Cuscuz</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 rounded mb-2" src="./images/cardapio/cafedamanha/ovos_resized.jpg" alt="ovos"/>
+                                    <h5 class="text-colored fw-bold mt-2">Ovos</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="almoco">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded mb-2" src="./images/cardapio/almoco/file_resized.jpg" alt="file mignon"/>
+                                        <h5 class="text-colored fw-bold mt-2">Filé mignon</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded mb-2" src="./images/cardapio/almoco/frango-assado_resized.jpg" alt="frango"/>
+                                        <h5 class="text-colored fw-bold mt-2">Frango</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded mb-2" src="./images/cardapio/almoco/tilápia_resized.jpg" alt="tilapia"/>
+                                        <h5 class="text-colored fw-bold mt-2">Tilapia</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded mb-2" src="./images/cardapio/almoco/salmao_resized.jpg" alt="salmao"/>
+                                        <h5 class="text-colored fw-bold mt-2">Salmão</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded mb-2" src="./images/cardapio/almoco/arroz_resized.jpeg" alt="arroz"/>
+                                        <h5 class="text-colored fw-bold mt-2">Arroz</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded mb-2" src="./images/cardapio/almoco/feijao_resized.jpeg" alt="feijao"/>
+                                        <h5 class="text-colored fw-bold mt-2">Feijao</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded mb-2" src="./images/cardapio/almoco/macarrao_resized.jpg" alt="macarrao"/>
+                                        <h5 class="text-colored fw-bold mt-2">Macarrao</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded mb-2" src="./images/cardapio/almoco/lasanha_resized.jpeg" alt="lasanha"/>
+                                        <h5 class="text-colored fw-bold mt-2">Lasanha</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur.
+                                        </p>
+                                    </div>
+                                </div>
+                        </div> 
+                        <div class="tab-pane" id="sobremesas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded mb-2" src="./images/cardapio/sobremesas/bolo.jpg" alt="bolo"/>
+                                        <h5 class="text-colored fw-bold mt-2">Bolo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded mb-2" src="./images/cardapio/sobremesas/cupcake.jpg" alt="cupcake"/>
+                                        <h5 class="text-colored fw-bold mt-2">Cupcake</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded mb-2" src="./images/cardapio/sobremesas/torta_resized.jpg" alt="torta"/>
+                                        <h5 class="text-colored fw-bold mt-2">Torta Maracujá</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded mb-2" src="./images/cardapio/sobremesas/mousse_resized.jpeg" alt="mousse"/>
+                                        <h5 class="text-colored fw-bold mt-2">Mousse Limão</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded mb-2" src="./images/cardapio/sobremesas/picole_resized.jpg" alt="picole"/>
+                                        <h5 class="text-colored fw-bold mt-2">Picolé</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded mb-2" src="./images/cardapio/sobremesas/sorvete_resized.png" alt="sorvete"/>
+                                        <h5 class="text-colored fw-bold mt-2">Sorvete</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded mb-2" src="./images/cardapio/sobremesas/mousseMorango_resized.jpg" alt="mousse"/>
+                                        <h5 class="text-colored fw-bold mt-2">Mousse Morango</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded mb-2" src="./images/cardapio/sobremesas/tortaCaramelo_resized.png" alt="vinho"/>
+                                        <h5 class="text-colored fw-bold mt-2">Torta Caramelo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur.
+                                        </p>
+                                    </div>
+                                </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+    <section id="fale-conosco" class="tp-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold">Seu nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold">Seu e-mail</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold">Seu telefone</label>
+                            <input type="tel" id="campo-telefone" name="telefone" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold">Sua mensagem</label>
+                            <textarea class="form-control" id="mensagem" name="mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-hand-thumbs-up"></i>
+                            Redes sociais
+                        </h3>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 ms-2 me-2">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereço
+                        </h3>
+                        <p>
+                            Rua Lagoa Branca n° 323, Bairro Itapuã - Salvador BA
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
